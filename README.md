@@ -1,5 +1,5 @@
 # AI-Email-Insights
-An AI-driven communication analyst that leverages LLMs to identify latent client needs and service risks, preventing oversight by automatically logging actionable insights into Excel.
+An AI-driven communication analyst that leverages LLMs to identify latent client needs and service risks, preventing oversight by automatically logging actionable insights into Excel.\\
 This project was originally commissioned by a Greek company to automate this specific challenge. Upon completion, I decided to generalize it and release the source code to the public. By making this project **Open Source**, I aim to provide the community with a production-ready tool and encourage further innovation and collaboration in the field of AI-assisted business automation and privacy.
 
 ---
