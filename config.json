@@ -1,0 +1,21 @@
+{
+    "api_keys": {
+        "openai": ""
+    },
+    "email_accounts": [],
+    "company_info": {
+        "name": "",
+        "industry": "",
+        "target_complaints": "",
+        "anonymize_names": []
+    },
+    "filtering": {
+        "subject_blacklist": [],
+        "sender_blacklist": []
+    },
+    "settings": {
+        "excel_filename": "Analysis.xlsx",
+        "ai_model": "gpt-4o-mini",
+        "last_run_date": "2026-01-08"
+    }
+}
