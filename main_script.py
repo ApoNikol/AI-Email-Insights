@@ -215,7 +215,6 @@ def run_analysis_logic(config, status_container):
             worksheet.set_column('F:F', 80) # Summary (AI)
             worksheet.set_column('G:G', 18) # Status
 
-            # Εφαρμογή Header Format
             for col_num, value in enumerate(df_final.columns.values):
                 worksheet.write(0, col_num, value, header_fmt)
             
@@ -232,4 +231,5 @@ def run_analysis_logic(config, status_container):
     with open('config.json', 'w', encoding='utf-8') as f:
         json.dump(config, f, indent=4, ensure_ascii=False)
         
+
     return final_list, stats    
