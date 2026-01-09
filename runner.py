@@ -6,11 +6,11 @@ def resolve_path(path):
     return os.path.join(bundle_dir, path)
 
 if __name__ == "__main__":
-    # Το σημείο που "δένει" το EXE με το Streamlit
     sys.argv = [
         "streamlit",
         "run",
-        resolve_path("ui.py"), # Το κύριο UI αρχείο σου
+        resolve_path("ui.py")
         "--global.developmentMode=false",
     ]
+
     sys.exit(stcli.main())
